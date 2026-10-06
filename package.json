@@ -1,0 +1,22 @@
+{
+  "name": "biog-russia-crmp-chechenskiy",
+  "version": "1.0.0",
+  "description": "BIOG RUSSIA CRMP ЧЕЧЕНСКИЙ Launcher",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-builder --win --dir",
+    "package": "electron-builder --win nsis portable"
+  },
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "ru.biogrussia.crmp.launcher",
+    "productName": "BIOG RUSSIA CRMP",
+    "files": [
+      "index.html",
+      "main.js",
+      "preload.js",
+      "package
